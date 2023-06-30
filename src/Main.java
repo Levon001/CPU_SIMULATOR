@@ -1,10 +1,8 @@
-import OC.OS;
-import hardware.Cpu;
+import os.OS;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello");
-        OS os = new OS();
-        os.execute("/home/levon/IdeaProjects/CPU_SIMULATOR/src/code.txt");
+        OS os = new OS();   // Create an instance of the OS class
+        os.execute("code.txt");  // Execute the OS by providing the file path of the source code
     }
 }
