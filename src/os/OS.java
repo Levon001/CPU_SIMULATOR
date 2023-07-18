@@ -1,4 +1,4 @@
-package OS;
+package os;
 
 import compiler.Compiler;
 import hardware.Cpu;

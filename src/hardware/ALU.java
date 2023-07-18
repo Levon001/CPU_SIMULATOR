@@ -61,7 +61,6 @@ public class ALU {
             };
             if (op1Type == 0) {
                 register.setRegisterValue(storagePlaceIndex, res);  // Store result in a register
-
             } else if (op1Type == 2) {
                 ram.setElementStack(storagePlaceIndex, res);   // Store result in RAM stack
             }

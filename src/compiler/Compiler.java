@@ -24,7 +24,7 @@ public class Compiler {
         File file = new File(codePath);
         if (!file.canRead())
             throw new IllegalArgumentException("Not found file of file path: " + codePath);
-        try (Scanner code = new Scanner(file);) {
+        try (Scanner code = new Scanner(file)) {
             while (code.hasNextLine()) {
                 lineCode.add(code.nextLine());
             }

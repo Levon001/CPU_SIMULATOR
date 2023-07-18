@@ -1,4 +1,4 @@
-import OS.OS;
+import os.OS;
 
 public class Main {
     public static void main(String[] args) {
